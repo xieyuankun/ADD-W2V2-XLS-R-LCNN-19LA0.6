@@ -1,10 +1,6 @@
 # Wav2vec2-XLS-R-LCNN (19LA 0.6%EER)
 
-This repository is a baseline model supported to the paper [FSD dataset](https://arxiv.org/abs/2309.02232)  .
-
-The code sturcture is modified on the [ASVspoof2021_AIR](https://github.com/yzyouzhang/ASVspoof2021_AIR). 
-Thanks to You Zhang for contribution to the field of audio deepfake detection!
-
+This repository is a baseline model train on ASVspoof2019 LA training set.
 
 ### 1. Offline Data Extraction
 ```
@@ -41,3 +37,6 @@ python evaluate_tDCF_asvspoof19.py
 We also provided a pretrained model in `models_0.63/try/anti-spoofing_feat_model.pt`
 
 The final test scores EER = 0.63572%,  min-tDCF = 0.01904
+
+## 4. Reference
+The code sturcture is modified on the [ASVspoof2021_AIR](https://github.com/yzyouzhang/ASVspoof2021_AIR). 
